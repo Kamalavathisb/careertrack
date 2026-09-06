@@ -4,46 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta
-name="description"
-content="CareerTrack - A modern job application tracker to manage, organize, and track your job search."
-
->
-
+  <meta name="description" content="CareerTrack - A modern job application tracker to manage, organize, and track your job search.">
   <meta name="theme-color" content="#2563eb">
 
   <title>CareerTrack | Job Application Tracker</title>
-
-  <!-- IMPORTANT:
-       Use relative paths for GitHub Pages repository deployment.
-       Do NOT change ./css/ to /css/
-  -->
 
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-  <!-- ==============================
-       NAVIGATION
-  =============================== -->
-
   <nav class="nav">
 
 ```
 <div class="nav_brand">
-
   <div class="logo">C</div>
 
   <div>
     <h1 class="nav_title">CareerTrack</h1>
     <p class="nav_subtitle">Track your career journey</p>
   </div>
-
 </div>
 
-<!-- Mobile menu button -->
 <button
   id="openSidebarBtn"
   class="nav_toggle"
@@ -53,38 +35,21 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
   ☰
 </button>
 
-<!-- Desktop navigation -->
 <div id="navMenu" class="nav_links">
 
-  <a
-    id="d"
-    href="./index.html"
-    class="nav_link active"
-  >
+  <a id="d" href="./index.html" class="nav_link active">
     Dashboard
   </a>
 
-  <a
-    id="a"
-    href="./applications.html"
-    class="nav_link"
-  >
+  <a id="a" href="./applications.html" class="nav_link">
     Applications
   </a>
 
-  <a
-    id="k"
-    href="./kanban.html"
-    class="nav_link"
-  >
+  <a id="k" href="./kanban.html" class="nav_link">
     Kanban
   </a>
 
-  <a
-    id="s"
-    href="./settings.html"
-    class="nav_link"
-  >
+  <a id="s" href="./settings.html" class="nav_link">
     Settings
   </a>
 
@@ -92,10 +57,6 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
 ```
 
   </nav>
-
-  <!-- ==============================
-       MOBILE SIDEBAR
-  =============================== -->
 
   <div
     class="mobileSidebar hidden"
@@ -130,31 +91,19 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
 
 <div class="mobileSidebar_links">
 
-  <a
-    href="./index.html"
-    class="nav_link active"
-  >
+  <a href="./index.html" class="nav_link active">
     Dashboard
   </a>
 
-  <a
-    href="./applications.html"
-    class="nav_link"
-  >
+  <a href="./applications.html" class="nav_link">
     Applications
   </a>
 
-  <a
-    href="./kanban.html"
-    class="nav_link"
-  >
+  <a href="./kanban.html" class="nav_link">
     Kanban
   </a>
 
-  <a
-    href="./settings.html"
-    class="nav_link"
-  >
+  <a href="./settings.html" class="nav_link">
     Settings
   </a>
 
@@ -163,31 +112,18 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
 
   </div>
 
-  <!-- Mobile sidebar overlay -->
-
   <div
     class="sidebarOverlay hidden"
     id="sidebarOverlay"
   ></div>
 
-  <!-- ==============================
-       MAIN CONTENT
-  =============================== -->
-
   <main class="container">
 
 ```
-<!-- ==============================
-     STATISTICS
-=============================== -->
 <section class="grid grid-4">
 
-  <!-- Total Applications -->
   <div class="card stat">
-
-    <p class="muted">
-      Total Applications
-    </p>
+    <p class="muted">Total Applications</p>
 
     <h2
       id="totalApps"
@@ -195,16 +131,11 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
     >
       0
     </h2>
-
   </div>
 
 
-  <!-- Applied -->
   <div class="card stat">
-
-    <p class="muted">
-      Applied
-    </p>
+    <p class="muted">Applied</p>
 
     <h2
       id="appliedCount"
@@ -212,16 +143,11 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
     >
       0
     </h2>
-
   </div>
 
 
-  <!-- Interviews -->
   <div class="card stat">
-
-    <p class="muted">
-      Interviews
-    </p>
+    <p class="muted">Interviews</p>
 
     <h2
       id="interviewCount"
@@ -229,16 +155,11 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
     >
       0
     </h2>
-
   </div>
 
 
-  <!-- Offers -->
   <div class="card stat">
-
-    <p class="muted">
-      Offers
-    </p>
+    <p class="muted">Offers</p>
 
     <h2
       id="offerCount"
@@ -246,28 +167,18 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
     >
       0
     </h2>
-
   </div>
 
 </section>
 
 
-<!-- ==============================
-     DASHBOARD DETAILS
-=============================== -->
 <section class="grid grid-2 mt-16">
 
-
-  <!-- ==============================
-       RECENT APPLICATIONS
-  =============================== -->
   <div class="card">
 
     <div class="card_header">
 
-      <h3>
-        Recent Applications
-      </h3>
+      <h3>Recent Applications</h3>
 
       <a
         href="./applications.html"
@@ -280,7 +191,6 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
     </div>
 
 
-    <!-- Applications will be inserted by JavaScript -->
     <div
       id="recentList"
       class="list"
@@ -290,16 +200,11 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
   </div>
 
 
-  <!-- ==============================
-       PROGRESS
-  =============================== -->
   <div class="card">
 
     <div class="card_header">
 
-      <h3>
-        Progress
-      </h3>
+      <h3>Progress</h3>
 
       <button
         id="seedBtn"
@@ -314,8 +219,6 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
 
     <div class="progressBox">
 
-
-      <!-- Rejected -->
       <div class="progressRow">
 
         <p class="muted">
@@ -332,7 +235,6 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
       </div>
 
 
-      <!-- Success Rate -->
       <div class="progressRow">
 
         <p class="muted">
@@ -352,7 +254,6 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
       <div class="divider"></div>
 
 
-      <!-- CareerTrack Message -->
       <p class="muted">
 
         Your goal is not
@@ -376,20 +277,11 @@ content="CareerTrack - A modern job application tracker to manage, organize, and
 
   </main>
 
-  <!-- ==============================
-       TOAST NOTIFICATION
-  =============================== -->
-
   <div
     id="toast"
     class="toast hidden"
   >
   </div>
-
-  <!-- ==============================
-       JAVASCRIPT
-       Keep these paths relative.
-  =============================== -->
 
   <script src="./js/storage.js"></script>
 
