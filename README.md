@@ -11,7 +11,7 @@ No backend server or external database is required. Application data is stored l
 ## 🌐 Live Demo
 
 🔗 **Live Website:**
-`https://YOUR-USERNAME.github.io/careertrack/`
+`https://Kamalavathisb.github.io/careertrack/`
 
 ---
 
